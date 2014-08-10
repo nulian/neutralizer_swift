@@ -15,7 +15,8 @@ class GameScene: SKScene {
         myLabel.text = "Hello, World!";
         myLabel.fontSize = 65;
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
-        
+        var level = LevelLoader();
+        level.LoadTiles("0");
         self.addChild(myLabel)
     }
     
@@ -26,9 +27,8 @@ class GameScene: SKScene {
         
         let sprite = SKSpriteNode(imageNamed:"Spaceship")
         sprite.position = location;
-        sprite.setScale(0.5)
-        
-        let action = SKAction.rotateByAngle(M_PI, duration:1)
+        sprite.setScale(0.5);
+        let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
         sprite.runAction(SKAction.repeatActionForever(action))
         
         self.addChild(sprite)

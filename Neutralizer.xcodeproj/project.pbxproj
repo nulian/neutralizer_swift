@@ -14,6 +14,9 @@
 		D0FC6A1D1996DC3A00F65382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FC6A1C1996DC3A00F65382 /* Images.xcassets */; };
 		D0FC6A201996DC3A00F65382 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FC6A1E1996DC3A00F65382 /* MainMenu.xib */; };
 		D0FC6A2C1996DC3A00F65382 /* NeutralizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A2B1996DC3A00F65382 /* NeutralizerTests.swift */; };
+		D0FC6A361996EAEE00F65382 /* LevelLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A351996EAEE00F65382 /* LevelLoader.swift */; };
+		D0FC6A391996EDA100F65382 /* 0.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0FC6A381996EDA100F65382 /* 0.txt */; };
+		D0FC6A3D1996F6F000F65382 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A3C1996F6F000F65382 /* StreamReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		D0FC6A251996DC3A00F65382 /* NeutralizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeutralizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC6A2A1996DC3A00F65382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FC6A2B1996DC3A00F65382 /* NeutralizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutralizerTests.swift; sourceTree = "<group>"; };
+		D0FC6A351996EAEE00F65382 /* LevelLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelLoader.swift; sourceTree = "<group>"; };
+		D0FC6A381996EDA100F65382 /* 0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 0.txt; path = Neutralizer/0.txt; sourceTree = SOURCE_ROOT; };
+		D0FC6A3C1996F6F000F65382 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Neutralizer/StreamReader.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +85,15 @@
 		D0FC6A111996DC3A00F65382 /* Neutralizer */ = {
 			isa = PBXGroup;
 			children = (
+				D0FC6A371996ED7800F65382 /* Levels */,
 				D0FC6A161996DC3A00F65382 /* AppDelegate.swift */,
 				D0FC6A181996DC3A00F65382 /* GameScene.swift */,
 				D0FC6A1A1996DC3A00F65382 /* GameScene.sks */,
 				D0FC6A1C1996DC3A00F65382 /* Images.xcassets */,
 				D0FC6A1E1996DC3A00F65382 /* MainMenu.xib */,
 				D0FC6A121996DC3A00F65382 /* Supporting Files */,
+				D0FC6A351996EAEE00F65382 /* LevelLoader.swift */,
+				D0FC6A3C1996F6F000F65382 /* StreamReader.swift */,
 			);
 			path = Neutralizer;
 			sourceTree = "<group>";
@@ -113,6 +122,14 @@
 				D0FC6A2A1996DC3A00F65382 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0FC6A371996ED7800F65382 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				D0FC6A381996EDA100F65382 /* 0.txt */,
+			);
+			name = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +215,7 @@
 				D0FC6A1B1996DC3A00F65382 /* GameScene.sks in Resources */,
 				D0FC6A1D1996DC3A00F65382 /* Images.xcassets in Resources */,
 				D0FC6A201996DC3A00F65382 /* MainMenu.xib in Resources */,
+				D0FC6A391996EDA100F65382 /* 0.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FC6A3D1996F6F000F65382 /* StreamReader.swift in Sources */,
 				D0FC6A191996DC3A00F65382 /* GameScene.swift in Sources */,
 				D0FC6A171996DC3A00F65382 /* AppDelegate.swift in Sources */,
 				D0FC6A151996DC3A00F65382 /* main.swift in Sources */,
+				D0FC6A361996EAEE00F65382 /* LevelLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
