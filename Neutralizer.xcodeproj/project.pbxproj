@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0B569281997F14000DDE348 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B569271997F14000DDE348 /* Tile.swift */; };
 		D0FC6A151996DC3A00F65382 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A141996DC3A00F65382 /* main.swift */; };
 		D0FC6A171996DC3A00F65382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A161996DC3A00F65382 /* AppDelegate.swift */; };
 		D0FC6A191996DC3A00F65382 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A181996DC3A00F65382 /* GameScene.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0B569271997F14000DDE348 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		D0FC6A0F1996DC3A00F65382 /* Neutralizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neutralizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC6A131996DC3A00F65382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FC6A141996DC3A00F65382 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				D0FC6A121996DC3A00F65382 /* Supporting Files */,
 				D0FC6A351996EAEE00F65382 /* LevelLoader.swift */,
 				D0FC6A3C1996F6F000F65382 /* StreamReader.swift */,
+				D0B569271997F14000DDE348 /* Tile.swift */,
 			);
 			path = Neutralizer;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				D0FC6A3D1996F6F000F65382 /* StreamReader.swift in Sources */,
 				D0FC6A191996DC3A00F65382 /* GameScene.swift in Sources */,
 				D0FC6A171996DC3A00F65382 /* AppDelegate.swift in Sources */,
+				D0B569281997F14000DDE348 /* Tile.swift in Sources */,
 				D0FC6A151996DC3A00F65382 /* main.swift in Sources */,
 				D0FC6A361996EAEE00F65382 /* LevelLoader.swift in Sources */,
 			);
@@ -425,6 +429,7 @@
 				D0FC6A311996DC3A00F65382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0FC6A321996DC3A00F65382 /* Build configuration list for PBXNativeTarget "NeutralizerTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +438,7 @@
 				D0FC6A341996DC3A00F65382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
