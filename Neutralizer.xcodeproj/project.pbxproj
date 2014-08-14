@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D05B719D199C2B7700E09BF1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B719C199C2B7700E09BF1 /* Player.swift */; };
+		D05B719F199C2CED00E09BF1 /* RectangleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B719E199C2CED00E09BF1 /* RectangleExtensions.swift */; };
 		D0B569281997F14000DDE348 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B569271997F14000DDE348 /* Tile.swift */; };
 		D0FC6A151996DC3A00F65382 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A141996DC3A00F65382 /* main.swift */; };
 		D0FC6A171996DC3A00F65382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC6A161996DC3A00F65382 /* AppDelegate.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D05B719C199C2B7700E09BF1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D05B719E199C2CED00E09BF1 /* RectangleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleExtensions.swift; sourceTree = "<group>"; };
 		D0B569271997F14000DDE348 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		D0FC6A0F1996DC3A00F65382 /* Neutralizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neutralizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC6A131996DC3A00F65382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,7 +42,7 @@
 		D0FC6A161996DC3A00F65382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FC6A181996DC3A00F65382 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D0FC6A1A1996DC3A00F65382 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D0FC6A1C1996DC3A00F65382 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0FC6A1C1996DC3A00F65382 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Neutralizer/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		D0FC6A1F1996DC3A00F65382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D0FC6A251996DC3A00F65382 /* NeutralizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeutralizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC6A2A1996DC3A00F65382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				D0FC6A351996EAEE00F65382 /* LevelLoader.swift */,
 				D0FC6A3C1996F6F000F65382 /* StreamReader.swift */,
 				D0B569271997F14000DDE348 /* Tile.swift */,
+				D05B719C199C2B7700E09BF1 /* Player.swift */,
+				D05B719E199C2CED00E09BF1 /* RectangleExtensions.swift */,
 			);
 			path = Neutralizer;
 			sourceTree = "<group>";
@@ -237,9 +243,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FC6A3D1996F6F000F65382 /* StreamReader.swift in Sources */,
+				D05B719F199C2CED00E09BF1 /* RectangleExtensions.swift in Sources */,
 				D0FC6A191996DC3A00F65382 /* GameScene.swift in Sources */,
 				D0FC6A171996DC3A00F65382 /* AppDelegate.swift in Sources */,
 				D0B569281997F14000DDE348 /* Tile.swift in Sources */,
+				D05B719D199C2B7700E09BF1 /* Player.swift in Sources */,
 				D0FC6A151996DC3A00F65382 /* main.swift in Sources */,
 				D0FC6A361996EAEE00F65382 /* LevelLoader.swift in Sources */,
 			);

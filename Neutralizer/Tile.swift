@@ -12,15 +12,14 @@ import SpriteKit;
 
     struct Tile {
         var collision: TileCollision;
-        
+        var sprite: SKSpriteNode?
         static let Width = 64;
         static let Height = 48;
-        func size() -> CGVector {
-            return CGVectorMake(CGFloat(Tile.Width), CGFloat(Tile.Height));
-        }
+        static let Size = CGVector(CGFloat(Tile.Width), CGFloat(Tile.Height));
         
-        init(tileCollision: TileCollision){
+        init(sprite: SKSpriteNode?, tileCollision: TileCollision){
             self.collision = tileCollision;
+            self.sprite = sprite;
         }
     }
 
